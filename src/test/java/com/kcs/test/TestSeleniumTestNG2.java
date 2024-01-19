@@ -35,7 +35,7 @@ public class TestSeleniumTestNG2 {
 	public void searchGoogle() throws Exception
 	{
 		driver.findElement(By.id("APjFqb")).sendKeys("Automation Testing");
-		
+		//sleep for some time for viewing the changes
 		Thread.sleep(2000);
 	}
 	
