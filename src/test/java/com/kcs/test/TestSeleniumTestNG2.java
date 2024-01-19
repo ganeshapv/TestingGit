@@ -42,7 +42,9 @@ public class TestSeleniumTestNG2 {
 	@AfterTest
 	public void tearDown() throws Exception
 	{
+		//close browser
 		driver.close();
+		
 		driver.quit();
 	}
 }
